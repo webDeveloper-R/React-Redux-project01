@@ -1,8 +1,8 @@
 import React from 'react';
 import './app.css';
-import Footer from './Footer'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import Footer from './Footer';
+import AddTodo from '../containers/AddTodo';
+import VisibleTodoList from '../containers/VisibleTodoList';
 
 const yeomanImage = require('../images/yeoman.png');
 /*
