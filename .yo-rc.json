@@ -1,0 +1,13 @@
+{
+  "generator-react-redux-express": {
+    "appName": "todolistapp",
+    "generatedWithVersion": 0
+  },
+  "generator-react-webpack": {
+    "appName": "react-redux-base",
+    "style": "sass",
+    "cssmodules": true,
+    "postcss": false,
+    "generatedWithVersion": 4
+  }
+}
