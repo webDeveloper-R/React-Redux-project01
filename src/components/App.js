@@ -1,8 +1,11 @@
 import React from 'react';
 import './app.css';
+import Footer from './Footer'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
 
 const yeomanImage = require('../images/yeoman.png');
-
+/*
 class AppComponent extends React.Component {
 
   render() {
@@ -15,9 +18,19 @@ class AppComponent extends React.Component {
       </div>
     );
   }
-}
+}*/
 
+const App = () => (
+<div>
+<AddTodo />
+<VisibleTodoList />
+<Footer />
+</div>
+)
+
+/*
 AppComponent.defaultProps = {
 };
+*/
 
-export default AppComponent;
+export default App;

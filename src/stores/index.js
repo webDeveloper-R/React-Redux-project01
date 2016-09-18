@@ -1,8 +1,10 @@
 import { createStore } from 'redux';
-import reducers from '../reducers';
+import { reducers, todoApp } from '../reducers';
+
+// let store = createStore(todoApp);
 
 function reduxStore(initialState) {
-  const store = createStore(reducers, initialState,
+  const store = createStore(reducers, todoApp, initialState,
     window.devToolsExtension && window.devToolsExtension());
 
   if (module.hot) {
