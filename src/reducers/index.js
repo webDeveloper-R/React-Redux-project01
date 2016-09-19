@@ -35,7 +35,7 @@ function todos(state = [], action) {
           text: action.text,
           completed: false
         }
-      ]
+      ];
     case TOGGLE_TODO:
       return state.map((todo, index) => {
         if (index === action.index) {
@@ -46,7 +46,7 @@ function todos(state = [], action) {
         return todo;
       });
     default:
-    return state;
+      return state;
   }
 }
 
