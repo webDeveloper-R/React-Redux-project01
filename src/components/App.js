@@ -4,7 +4,7 @@ import Footer from './Footer';
 import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList';
 
-const yeomanImage = require('../images/yeoman.png');
+// const yeomanImage = require('../images/yeoman.png');
 /*
 class AppComponent extends React.Component {
 
@@ -21,12 +21,12 @@ class AppComponent extends React.Component {
 }*/
 
 const App = () => (
-<div>
-<AddTodo />
-<VisibleTodoList />
-<Footer />
-</div>
-)
+  <div>
+    <AddTodo />
+    <VisibleTodoList />
+    <Footer />
+  </div>
+);
 
 /*
 AppComponent.defaultProps = {
