@@ -1,12 +1,12 @@
-import React, {
+/* import React, {
   Component,
   PropTypes
-} from 'react';
+} from 'react'; */
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+// import { bindActionCreators } from 'redux';
 import { setVisibilityFilter } from '../actions';
 import Link from '../components/Link';
-import Main from '../components/App';
+// import Main from '../components/App';
 
 const mapStateToProps = (state, ownProps) => {
   return {
